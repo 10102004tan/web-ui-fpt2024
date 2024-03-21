@@ -1,0 +1,277 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="public/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/css/styles.css">
+    <title>Document</title>
+<style type="text/css">.vue-slider-dot{position:absolute;-webkit-transition:all 0s;transition:all 0s;z-index:5}.vue-slider-dot:focus{outline:none}.vue-slider-dot-tooltip{position:absolute;visibility:hidden}.vue-slider-dot-hover:hover .vue-slider-dot-tooltip,.vue-slider-dot-tooltip-show{visibility:visible}.vue-slider-dot-tooltip-top{top:-10px;left:50%;-webkit-transform:translate(-50%,-100%);transform:translate(-50%,-100%)}.vue-slider-dot-tooltip-bottom{bottom:-10px;left:50%;-webkit-transform:translate(-50%,100%);transform:translate(-50%,100%)}.vue-slider-dot-tooltip-left{left:-10px;top:50%;-webkit-transform:translate(-100%,-50%);transform:translate(-100%,-50%)}.vue-slider-dot-tooltip-right{right:-10px;top:50%;-webkit-transform:translate(100%,-50%);transform:translate(100%,-50%)}</style><style type="text/css">.vue-slider-marks{position:relative;width:100%;height:100%}.vue-slider-mark{position:absolute;z-index:1}.vue-slider-ltr .vue-slider-mark,.vue-slider-rtl .vue-slider-mark{width:0;height:100%;top:50%}.vue-slider-ltr .vue-slider-mark-step,.vue-slider-rtl .vue-slider-mark-step{top:0}.vue-slider-ltr .vue-slider-mark-label,.vue-slider-rtl .vue-slider-mark-label{top:100%;margin-top:10px}.vue-slider-ltr .vue-slider-mark{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vue-slider-ltr .vue-slider-mark-step{left:0}.vue-slider-ltr .vue-slider-mark-label{left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%)}.vue-slider-rtl .vue-slider-mark{-webkit-transform:translate(50%,-50%);transform:translate(50%,-50%)}.vue-slider-rtl .vue-slider-mark-step{right:0}.vue-slider-rtl .vue-slider-mark-label{right:50%;-webkit-transform:translateX(50%);transform:translateX(50%)}.vue-slider-btt .vue-slider-mark,.vue-slider-ttb .vue-slider-mark{width:100%;height:0;left:50%}.vue-slider-btt .vue-slider-mark-step,.vue-slider-ttb .vue-slider-mark-step{left:0}.vue-slider-btt .vue-slider-mark-label,.vue-slider-ttb .vue-slider-mark-label{left:100%;margin-left:10px}.vue-slider-btt .vue-slider-mark{-webkit-transform:translate(-50%,50%);transform:translate(-50%,50%)}.vue-slider-btt .vue-slider-mark-step{top:0}.vue-slider-btt .vue-slider-mark-label{top:50%;-webkit-transform:translateY(-50%);transform:translateY(-50%)}.vue-slider-ttb .vue-slider-mark{-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}.vue-slider-ttb .vue-slider-mark-step{bottom:0}.vue-slider-ttb .vue-slider-mark-label{bottom:50%;-webkit-transform:translateY(50%);transform:translateY(50%)}.vue-slider-mark-label,.vue-slider-mark-step{position:absolute}</style><style type="text/css">.vue-slider{position:relative;-webkit-box-sizing:content-box;box-sizing:content-box;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;display:block;-webkit-tap-highlight-color:rgba(0,0,0,0)}.vue-slider-rail{position:relative;width:100%;height:100%;-webkit-transition-property:width,height,left,right,top,bottom;transition-property:width,height,left,right,top,bottom}.vue-slider-process{position:absolute;z-index:1}</style><style>@import url("chrome-extension://adlpodnneegcnbophopdmhedicjbcgco/content/styles.css");</style></head>
+
+<body>
+
+    <header>
+        <div class="container d-flex justify-content-between align-items-center">
+            <a href="index.php">
+                <div class="logo">
+                    <img src="public/images/ten du an.png" alt="">
+                </div>
+            </a>
+            <nav>
+                <ul class="d-flex">
+                    <li>
+                        <a href="">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="">Gioi thieu</a>
+                    </li>
+
+                    <li>
+                        <a href="">Bai viet</a>
+                    </li>
+
+                    <li>
+                        <a href="">Lien he</a>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="banner">
+                <h2 class="banner-text">TOI YEU SONG SAI GON</h2>
+            </div>
+        </div>
+        <i class="fa-solid fa-cloud"></i>
+        <i class="fa-solid fa-cloud"></i>
+        <i class="fa-solid fa-cloud"></i>
+    </section>
+    <section class="py-5">
+        <div class="container">
+            <div class="row hover-box-item">
+                <div class="col-6">
+                    <a href="#">
+                        <div class="card-image mb-2">
+                            <img src="public/images/dia-dao-cu-chi.jpg" alt="">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6">
+                    <div class="card-content">
+                        <div class="row">
+                            <div class="col-2 text-center mt-3">
+                                <i class="fa-regular fa-heart"><span class="d-inline-block ms-1 fw-bold">1</span></i>
+                            </div>
+                            <div class="col-10">
+                                <a href="#">
+                                    <h5 class="my-2 card-title text-uppercase f">Chien thang bach dnag song ngo quyen</h5>
+                                </a>
+                                <p class="my-2 card-desc"></p>
+                                <div class="card-more">
+                                    ${element.views} Luot xem | ${element.created_at}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <i class="fa-solid fa-cloud"></i>
+        <i class="fa-solid fa-cloud"></i>
+        <i class="fa-solid fa-cloud"></i>
+    </section>
+    <section class="py-5 ">
+        <div class="container">
+            <a class="section-title" href="categories.php?id=0">
+                <h2>Bảo tàng , di tích, lịch sử</h2>
+            </a>
+            <div class="row bao-tang">
+            </div>
+            <button class="btn-load btn-custom btn-secondary-custom d-inline-block" onclick="loadMore(1,baoTang,document.querySelector('.bao-tang'))">Tai them</button>
+        </div>
+
+        <i class="fa-solid fa-cloud"></i>
+        <i class="fa-solid fa-cloud"></i>
+        <i class="fa-solid fa-cloud"></i>
+    </section>
+    <section class="py-5  ">
+        <div class="container">
+            <a class="section-title" href="categories.php?id=1">
+                <h2>Địa điểm ven sông</h2>
+            </a>
+            <div class="row dia-diem">
+
+            
+        <div class="col-lg-4 col-md-6 col-12 px-4 py-4 ">
+                <div class="card-custom hover-box-item">
+                <div class="card-image mb-2">
+                <img src="public/images/5.png" alt="">
+                </div>
+                <div class="card-content">
+                <div class="row">
+                <div class="col-2 text-center mt-3">
+                    <i class="fa-solid fa-heart text-danger " onclick="like(this,5)"><span class="d-inline-block ms-1 fw-bold"> 1</span></i>
+                </div>
+                <div class="col-10">
+                    <a href="show.php?id=5"><h5 class="my-2 card-title mb-5"> Bảo tàng Thành phố Hồ Chí Minh </h5></a>
+                    <p class="my-2 card-desc"> Bảo tàng TP. Hồ Chí Minh (tên cũ: Dinh Gia Long) là công trình được xây dựng năm 1885 và hoàn thành ...</p>
+                    <div class="card-more">
+                        0 Luot xem | 2024-03-20 22:08:03
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 col-12 px-4 py-4 ">
+                <div class="card-custom hover-box-item">
+                <div class="card-image mb-2">
+                <img src="public/images/4.png" alt="">
+                </div>
+                <div class="card-content">
+                <div class="row">
+                <div class="col-2 text-center mt-3">
+                    <i class="fa-heart text-danger fa-regular" onclick="like(this,4)"><span class="d-inline-block ms-1 fw-bold">4</span></i>
+                </div>
+                <div class="col-10">
+                    <a href="show.php?id=4"><h5 class="my-2 card-title mb-5"> Bảo tàng Lịch sử Thành phố Hồ Chí Minh </h5></a>
+                    <p class="my-2 card-desc"> Bảo tàng Lịch sử TP. Hồ Chí Minh, trước đây là Bảo tàng Blanchard de la Brosse thành lập năm 1929 và...</p>
+                    <div class="card-more">
+                        3 Luot xem | 2024-03-20 22:08:03
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 col-12 px-4 py-4 ">
+                <div class="card-custom hover-box-item">
+                <div class="card-image mb-2">
+                <img src="public/images/9.png" alt="">
+                </div>
+                <div class="card-content">
+                <div class="row">
+                <div class="col-2 text-center mt-3">
+                    <i class="fa-solid fa-heart text-danger " onclick="like(this,9)"><span class="d-inline-block ms-1 fw-bold"> 1</span></i>
+                </div>
+                <div class="col-10">
+                    <a href="show.php?id=9"><h5 class="my-2 card-title mb-5"> Nơi thành lập An Nam Cộng sản Đảng năm 1929 </h5></a>
+                    <p class="my-2 card-desc"> An Nam Cộng sản Đảng ra đời trong hoàn cảnh giai cấp công nhân Việt Nam đã giác ngộ cách mạng cao độ...</p>
+                    <div class="card-more">
+                        5 Luot xem | 2024-03-20 22:08:03
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        </div>
+            <button class="btn-load btn-custom btn-secondary-custom d-inline-block" onclick="loadMore(2,diaDiem,document.querySelector('.dia-diem'))">Tai them</button>
+        </div>
+
+        <i class="fa-solid fa-cloud"></i>
+        <i class="fa-solid fa-cloud"></i>
+        <i class="fa-solid fa-cloud"></i>
+    </section>
+    <section class="py-5 ">
+        <div class="container">
+            <a class="section-title" href="categories.php?id=0">
+                <h2>Các công trình giao thông</h2>
+            </a>
+            <div class="row ven-song">
+            
+        <div class="col-lg-4 col-md-6 col-12 px-4 py-4 ">
+                <div class="card-custom hover-box-item">
+                <div class="card-image mb-2">
+                <img src="public/images/12.jpg" alt="">
+                </div>
+                <div class="card-content">
+                <div class="row">
+                <div class="col-2 text-center mt-3">
+                    <i class="fa-solid fa-heart text-danger " onclick="like(this,12)"><span class="d-inline-block ms-1 fw-bold"> 1</span></i>
+                </div>
+                <div class="col-10">
+                    <a href="show.php?id=12"><h5 class="my-2 card-title mb-5"> Địa đạo Củ Chi (Ấp Phú Hiệp, xã Phú Mỹ Hưng, huyện ...</h5></a>
+                    <p class="my-2 card-desc"> Địa đạo Củ Chi là hệ thống đường hầm phòng thủ trong lòng đất do dân quân huyện Củ Chi, Tp. Hồ Chí M...</p>
+                    <div class="card-more">
+                        2 Luot xem | 2024-03-20 22:08:03
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 col-12 px-4 py-4 ">
+                <div class="card-custom hover-box-item">
+                <div class="card-image mb-2">
+                <img src="public/images/14.jpg" alt="">
+                </div>
+                <div class="card-content">
+                <div class="row">
+                <div class="col-2 text-center mt-3">
+                    <i class="fa-solid fa-heart text-danger " onclick="like(this,14)"><span class="d-inline-block ms-1 fw-bold"> 1</span></i>
+                </div>
+                <div class="col-10">
+                    <a href="show.php?id=14"><h5 class="my-2 card-title mb-5"> Nhà truyền thống khu An Phú Đông (474 Quốc lộ 1A,  ...</h5></a>
+                    <p class="my-2 card-desc"> Phát huy truyền thống vẻ vang của chiến khu xưa và nhằm đáp ứng nguyện vọng của của các tầng lớp Nhâ...</p>
+                    <div class="card-more">
+                        145 Luot xem | 2024-03-20 22:08:03
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 col-12 px-4 py-4 ">
+                <div class="card-custom hover-box-item">
+                <div class="card-image mb-2">
+                <img src="public/images/13.jpg" alt="">
+                </div>
+                <div class="card-content">
+                <div class="row">
+                <div class="col-2 text-center mt-3">
+                    <i class="fa-solid fa-heart text-danger " onclick="like(this,13)"><span class="d-inline-block ms-1 fw-bold"> 1</span></i>
+                </div>
+                <div class="col-10">
+                    <a href="show.php?id=13"><h5 class="my-2 card-title mb-5"> Nghĩa trang Liệt sĩ Huyện Hóc Môn (06 Đặng Thúc Vị ...</h5></a>
+                    <p class="my-2 card-desc"> ngày 18/4/2019 Nghĩa trang liệt sỹ huyện Hóc Môn đã được khởi công tại xã Đông Thạnh, huyện Hóc Môn
+...</p>
+                    <div class="card-more">
+                        0 Luot xem | 2024-03-20 22:08:03
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        </div>
+        </div>
+            <button class="btn-load btn-custom btn-secondary-custom d-inline-block" onclick="loadMore(3,venSong,document.querySelector('.ven-song'))">Tai them</button>
+        </div>
+
+        <i class="fa-solid fa-cloud"></i>
+        <i class="fa-solid fa-cloud"></i>
+        <i class="fa-solid fa-cloud"></i>
+    </section>
+    <footer class="py-5">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="public/images/ten du an.png" alt="">
+            </div>
+            <div>
+                <p><span>Dia chi : </span>So 1 Pham Ngoc Thach,Quan 1, TP HCM Email</p>
+                <p><span>Email : </span>thanhdoan@tphcm.gov.vn</p>
+            </div>
+        </div>
+    </footer>
+    <script src="public/js/app.js"></script>
+    <script src="public/js/bootstrap.bundle.min.js"></script>
+
+
+</body><div class="troywell-avia"></div><div class="troywell-caa"></div></html>
